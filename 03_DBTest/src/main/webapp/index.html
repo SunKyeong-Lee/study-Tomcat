@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>환영합니다</h1>
+	<p>아래 아이디와 비밀번호를 입력하면 회원가입이 됩니다</p>
+	<p>form을 통해서 데이터를 입력받고 데이터를 jsp에서 저장</p>
+	<form action="./userJoinAction.jsp" method="post">
+		<input type="text" name="userID" placeholder="아이디">
+		<input type="password" name="userPassword" placeholder="비밀번호">
+		<input type="submit" value="확인">
+	</form>
+	
+	<hr>
+	
+	<p>Book테이블에 값을 추가하는 form</p>
+	<form action="./bookAddAction.jsp" method="post">
+		<label>책 제목 : </label>
+		<input type="text" name="title"> <br>
+		<label>권수 : </label>
+		<input type="number" name="count"> <br>
+		<input type="submit" value="추가">
+	</form>
+</body>
+</html>
