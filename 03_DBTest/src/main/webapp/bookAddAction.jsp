@@ -1,11 +1,11 @@
 <%@ page language="java" 
     contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
+
+<% // 임포트 DTO, DAO // java.io.PrintWriter : 자바스크립트 출력용 %>
 <%@ page import="book.BookDTO" %>
 <%@ page import="book.BookDAO" %>
 <%@ page import="java.io.PrintWriter" %>
-<% // java.io.PrintWriter : 자바스크립트 출력용 %>
 
 <%  
 	// 현재 페이지는 자바를 이용하여 데이터를 DB에 넣어주는 페이지

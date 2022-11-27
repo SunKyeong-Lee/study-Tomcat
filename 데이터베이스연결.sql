@@ -11,3 +11,9 @@ create table Book (
     count int
 );
 select * from Book;
+
+create table Product (
+	name varchar(50),
+    count int
+);
+select * from Product;

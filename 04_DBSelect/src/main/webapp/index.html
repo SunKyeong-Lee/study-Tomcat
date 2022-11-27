@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>물건 추가 찾기</title>
+</head>
+<body>
+	<h1>아래 추가할 물건을 작성하세요</h1>
+	<form action="./productAddAction.jsp" method="POST">
+		<label>물건 이름 : </label>
+		<input type="text" name="name"> <br>
+		<label>들어온 갯수 : </label>
+		<input type="number" name="count"> <br>
+		<input type="submit" value="추가">
+	</form>
+	<hr>
+	<h1>찾고싶은 물건을 입력하세요</h1>
+	<form action="./productSelectAction.jsp" method="get">
+		<label>물건이름 : </label>
+		<input type="text" name="name">
+		<input type="submit" value="검색">
+	</form>
+</body>
+</html>
