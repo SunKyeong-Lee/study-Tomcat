@@ -36,4 +36,6 @@
 		response.setContentType("application/json");
 		out.print(jobj.toJSONString());
 	}
+	// 서버측 CORS 허용
+	response.addHeader("Access-Control-Allow-Origin", "*");
 %>
